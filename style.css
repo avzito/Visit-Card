@@ -1,0 +1,203 @@
+* { /*RESET*/
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+
+.container { 
+	background-image: url(./assets/background.png);
+	position: absolute;
+    width: 380px;
+    height: 570px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 15px;
+    margin-left: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:black;
+	border-radius: 4%;
+}
+
+.avatar {
+    width: 180x;
+	height: 180px;
+	position: absolute;
+	top: 30px;
+	left: 98px;
+}
+
+.circleBigOne {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 269px;
+	left: 10%;
+	box-shadow: 0 0 15px black;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.circleSmallOne {
+	width: 69px;
+	height: 69px;
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	margin-top: 275px;
+	left: 11.3mm;
+	z-index: 1;
+}
+
+.whatsapp {
+	width: 47px;
+	height: 47px;
+	position: absolute;
+	margin-top: 257px;
+	z-index: 1;
+	top: 27px;
+	left: 14.4mm;
+
+	cursor: pointer;
+}
+
+.whatsapp:active {
+	box-shadow: none;
+	opacity: 0.5;
+}
+
+.circleBigTwo {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 269px;
+	right: 39%;
+	box-shadow: 0 0 15px black;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.circleSmallTwo {
+	width: 69px;
+	height: 69px;
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	margin-top: 275px;
+	left: 40mm;
+	z-index: 1;
+}
+
+.instagram {
+	width: 47px;
+	height: 47px;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 120px;
+	z-index: 1;
+	
+	top: 25px;
+	left: 43px;
+
+	cursor: pointer;
+}
+
+.instagram:active {
+	box-shadow: none;
+	opacity: 0.5;
+}
+
+.circleBigThree {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 269px;
+	right: 10%;
+	box-shadow: 0 0 15px black;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.circleSmallThree {
+	width: 69px;
+	height: 69px;
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1F3642;
+	border-radius: 50%;
+	margin-top: 275px;
+	right: 11.3mm;
+	z-index: 1;
+}
+
+.linkedin {
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 238px;
+	z-index: 1;
+
+	top: 23px;
+	right: 48px;
+	
+	cursor: pointer;
+}
+
+.linkedin:active {
+	box-shadow: none;
+	opacity: 0.5;
+}
+
+.texto {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	padding:10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-top: 5px;
+	border-radius: 18px;
+	border: 4px solid white;
+	margin: 10px;
+	text-align: center;
+	width: 280px;
+	margin-left: 45px;
+	margin-top: 390px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 40px;
+}
+
+
+
+
+
